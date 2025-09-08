@@ -8,7 +8,7 @@ updates:
       time: "09:00"
     open-pull-requests-limit: 10
     commit-message:
-      prefix: "update"
+      prefix: "chore"
       include: "scope"
     groups:
       dev-deps:
