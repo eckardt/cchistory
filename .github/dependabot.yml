@@ -8,13 +8,13 @@ updates:
       time: "09:00"
     open-pull-requests-limit: 10
     commit-message:
-      prefix: "security"
+      prefix: "update"
       include: "scope"
     groups:
-      vitest:
+      dev-deps:
+        dependency-type: "development"
         patterns:
-          - "vitest*"
-          - "@vitest/*"
+          - "*"
     ignore:
       # Keep @types/node aligned with minimum supported Node.js version (20)
       - dependency-name: "@types/node"
