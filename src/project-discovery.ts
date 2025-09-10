@@ -171,11 +171,4 @@ export class ProjectDiscovery {
   private encodeProjectPath(path: string): string {
     return path.replace(/\//g, '-');
   }
-
-  /**
-   * Decode Claude project directory name to file path
-   */
-  private decodeProjectPath(encodedPath: string): string {
-    return encodedPath.replace(/-/g, '/');
-  }
 }

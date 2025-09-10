@@ -1,7 +1,4 @@
-import {
-  createResilientCommandStream,
-  JSONLStreamParser,
-} from './jsonl-stream-parser.js';
+import { createResilientCommandStream } from './jsonl-stream-parser.js';
 import type { ClaudeCommand } from './types.js';
 
 export interface ProjectInfo {
@@ -19,12 +16,6 @@ interface StreamWithBuffer {
 }
 
 export class StreamMerger {
-  private streamParser: JSONLStreamParser;
-
-  constructor() {
-    this.streamParser = new JSONLStreamParser();
-  }
-
   /**
    * Merge multiple project streams chronologically
    *
