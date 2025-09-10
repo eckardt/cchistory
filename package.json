@@ -1,6 +1,6 @@
 {
   "name": "cchistory",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Get shell commands from Claude Code conversation history. Because Claude's commands don't appear in your shell history.",
   "main": "dist/cli.js",
   "bin": {
