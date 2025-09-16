@@ -17,8 +17,8 @@
   },
   "scripts": {
     "build": "node scripts/update-version.js && tsc",
-    "dev": "tsx src/cli.ts",
-    "start": "node dist/cli.js",
+    "dev": "tsx -e 'import { program } from \"./src/cli\"; program.parse();'",
+    "start": "node bin/cchistory.js",
     "check": "biome check src/",
     "check:fix": "biome check --write src/",
     "format": "biome format --write src/",
