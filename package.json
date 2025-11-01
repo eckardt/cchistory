@@ -55,15 +55,15 @@
     "commander": "^14.0.0"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.2.4",
+    "@biomejs/biome": "2.3.2",
     "@types/node": "^20.0.0",
-    "@vitest/coverage-v8": "^3.2.4",
-    "@vitest/ui": "^3.2.4",
+    "@vitest/coverage-v8": "^4.0.6",
+    "@vitest/ui": "^4.0.6",
     "husky": "^9.1.7",
     "lint-staged": "^16.1.6",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",
-    "vitest": "^3.2.4"
+    "vitest": "^4.0.6"
   },
   "lint-staged": {
     "src/**/*.{ts,js}": [
